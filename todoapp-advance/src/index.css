@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'AktivGrotesk-Regular';
+    src: url('./assets/fonts/AktivGrotesk-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'AktivGrotesk-Medium';
+    src: url('./assets/fonts/AktivGrotesk-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'AktivGrotesk-Bold';
+    src: url('./assets/fonts/AktivGrotesk-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+  }
+  html {
+    font-family: 'AktivGrotesk-Regular';
+  }
+}
